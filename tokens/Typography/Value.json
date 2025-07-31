@@ -1,0 +1,188 @@
+{
+  "fontFamilies": {
+    "heading": {
+      "$type": "text",
+      "$value": "Atkinson Hyperlegible Next"
+    },
+    "body": {
+      "$type": "text",
+      "$value": "Public Sans"
+    },
+    "label": {
+      "$type": "text",
+      "$value": "Public Sans"
+    },
+    "monospace": {
+      "$type": "text",
+      "$value": "Atkinson Hyperlegible Mono"
+    }
+  },
+  "fontWeights": {
+    "400": {
+      "$type": "text",
+      "$value": "Regular"
+    },
+    "500": {
+      "$type": "text",
+      "$value": "Medium"
+    },
+    "700": {
+      "$type": "text",
+      "$value": "Bold"
+    }
+  },
+  "lineHeights": {
+    "0": {
+      "$type": "dimension",
+      "$value": "3rem"
+    },
+    "1": {
+      "$type": "dimension",
+      "$value": "2.5rem"
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "2rem"
+    },
+    "3": {
+      "$type": "dimension",
+      "$value": "1.5rem"
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "1.25rem"
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "0.781rem"
+    },
+    "7": {
+      "$type": "dimension",
+      "$value": "1.75rem"
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "0.75rem"
+    },
+    "9": {
+      "$type": "dimension",
+      "$value": "0.875rem"
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": "1.125rem"
+    }
+  },
+  "fontSize": {
+    "0": {
+      "$type": "dimension",
+      "$value": "0.625rem"
+    },
+    "1": {
+      "$type": "dimension",
+      "$value": "0.75rem"
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "0.875rem"
+    },
+    "3": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "1.125rem"
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": "1.25rem"
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "1.5rem"
+    },
+    "7": {
+      "$type": "dimension",
+      "$value": "2rem"
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "2.5rem"
+    }
+  },
+  "paragraphSpacing": {
+    "paragraph-spacing-none": {
+      "$type": "dimension",
+      "$value": "0rem"
+    },
+    "paragraph-spacing-xs": {
+      "$type": "dimension",
+      "$value": "0.5rem"
+    },
+    "paragraph-spacing-sm": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "paragraph-spacing-md": {
+      "$type": "dimension",
+      "$value": "1.5rem"
+    },
+    "paragraph-spacing-lg": {
+      "$type": "dimension",
+      "$value": "2rem"
+    }
+  },
+  "paragraphIndent": {
+    "paragraph-indent-none": {
+      "$type": "dimension",
+      "$value": "0rem"
+    },
+    "paragraph-indent-xs": {
+      "$type": "dimension",
+      "$value": "0.5rem"
+    },
+    "paragraph-indent-sm": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "paragraph-indent-md": {
+      "$type": "dimension",
+      "$value": "1.5rem"
+    },
+    "paragraph-indent-lg": {
+      "$type": "dimension",
+      "$value": "2rem"
+    }
+  },
+  "headings": {
+    "h1-font-size": {
+      "$type": "dimension",
+      "$value": "2.125rem"
+    },
+    "h2-font-size": {
+      "$type": "dimension",
+      "$value": "1.625rem"
+    },
+    "h3-font-size": {
+      "$type": "dimension",
+      "$value": "1.375rem"
+    },
+    "h4-font-size": {
+      "$type": "dimension",
+      "$value": "1.125rem"
+    },
+    "h5-font-size": {
+      "$type": "dimension",
+      "$value": "1rem"
+    },
+    "h6-font-size": {
+      "$type": "dimension",
+      "$value": "0.875rem"
+    }
+  }
+}

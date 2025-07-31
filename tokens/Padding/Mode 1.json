@@ -1,0 +1,30 @@
+{
+  "padding-xs": {
+    "$type": "dimension",
+    "$value": "0.75rem"
+  },
+  "padding-sm": {
+    "$type": "dimension",
+    "$value": "1rem"
+  },
+  "padding-md": {
+    "$type": "dimension",
+    "$value": "1.25rem"
+  },
+  "padding-lg": {
+    "$type": "dimension",
+    "$value": "1.5rem"
+  },
+  "padding-xl": {
+    "$type": "dimension",
+    "$value": "2rem"
+  },
+  "padding-xxs": {
+    "$type": "dimension",
+    "$value": "0.5rem"
+  },
+  "padding-3xs": {
+    "$type": "dimension",
+    "$value": "0.25rem"
+  }
+}

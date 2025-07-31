@@ -1,0 +1,34 @@
+{
+  "spacing-xxs": {
+    "$type": "dimension",
+    "$value": "0.25rem"
+  },
+  "spacing-xs": {
+    "$type": "dimension",
+    "$value": "{mantine-spacing-xs}"
+  },
+  "spacing-sm": {
+    "$type": "dimension",
+    "$value": "{mantine-spacing-sm}"
+  },
+  "spacing-md": {
+    "$type": "dimension",
+    "$value": "{mantine-spacing-md}"
+  },
+  "spacing-lg": {
+    "$type": "dimension",
+    "$value": "{mantine-spacing-lg}"
+  },
+  "spacing-xl": {
+    "$type": "dimension",
+    "$value": "{mantine-spacing-xl}"
+  },
+  "spacing-none": {
+    "$type": "dimension",
+    "$value": "0rem"
+  },
+  "spacing-xxl": {
+    "$type": "dimension",
+    "$value": "2.5rem"
+  }
+}

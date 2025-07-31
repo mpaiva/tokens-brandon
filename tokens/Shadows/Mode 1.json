@@ -1,0 +1,244 @@
+{
+  "shadow-xs1": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000000d"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "0rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "0.062rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.188rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  },
+  "shadow-xs2": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000001a"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "0rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "0.062rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.125rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  },
+  "shadow-sm1": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000000d"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "0rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "0.062rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.188rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  },
+  "shadow-sm2": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000000a"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "-0.312rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "0.938rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.438rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  },
+  "shadow-md": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000000d"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "0rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "0.062rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.188rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  },
+  "shadow-md2": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000000a"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "1.562rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "-0.312rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.625rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  },
+  "shadow-lg1": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000000d"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "0rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "0.062rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.188rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  },
+  "shadow-lg2": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000000a"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "1.438rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "-0.438rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.75rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  },
+  "shadow-xl": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000000d"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "0rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "0.062rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.188rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  },
+  "shadow-xl2": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000000a"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "2.25rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "1.75rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.438rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  },
+  "shadow-xl3": {
+    "Shadow": {
+      "$type": "color",
+      "$value": "#0000000a"
+    },
+    "X": {
+      "$type": "dimension",
+      "$value": "1.062rem"
+    },
+    "Y": {
+      "$type": "dimension",
+      "$value": "1.062rem"
+    },
+    "Blur": {
+      "$type": "dimension",
+      "$value": "0.438rem"
+    },
+    "Spread": {
+      "$type": "dimension",
+      "$value": "0rem"
+    }
+  }
+}

@@ -1,0 +1,1162 @@
+{
+  "mantine-colors-white": {
+    "$type": "color",
+    "$value": "#ffffff",
+    "$description": "A pure white color."
+  },
+  "mantine-colors-black": {
+    "$type": "color",
+    "$value": "#000000",
+    "$description": "A pure black color."
+  },
+  "mantine-colors-dark-0": {
+    "$type": "color",
+    "$value": "#c9c9c9",
+    "$description": "Lightest shade in the dark palette."
+  },
+  "mantine-colors-dark-1": {
+    "$type": "color",
+    "$value": "#b8b8b8",
+    "$description": "A very light dark tone."
+  },
+  "mantine-colors-dark-2": {
+    "$type": "color",
+    "$value": "#828282",
+    "$description": "Medium-light dark tone."
+  },
+  "mantine-colors-dark-3": {
+    "$type": "color",
+    "$value": "#696969",
+    "$description": "A medium dark tone."
+  },
+  "mantine-colors-dark-4": {
+    "$type": "color",
+    "$value": "#424242",
+    "$description": "A slightly dark tone."
+  },
+  "mantine-colors-dark-5": {
+    "$type": "color",
+    "$value": "#3b3b3b",
+    "$description": "A moderately dark tone."
+  },
+  "mantine-colors-dark-6": {
+    "$type": "color",
+    "$value": "#2e2e2e",
+    "$description": "A dark tone used for emphasis."
+  },
+  "mantine-colors-dark-7": {
+    "$type": "color",
+    "$value": "#242424",
+    "$description": "A darker tone."
+  },
+  "mantine-colors-dark-8": {
+    "$type": "color",
+    "$value": "#1f1f1f",
+    "$description": "A very dark tone."
+  },
+  "mantine-colors-dark-9": {
+    "$type": "color",
+    "$value": "#141414",
+    "$description": "Darkest shade in the dark palette."
+  },
+  "mantine-colors-gray-0": {
+    "$type": "color",
+    "$value": "#f8f9fa",
+    "$description": "The lightest gray shade."
+  },
+  "mantine-colors-gray-1": {
+    "$type": "color",
+    "$value": "#f1f3f5",
+    "$description": "A very light gray."
+  },
+  "mantine-colors-gray-2": {
+    "$type": "color",
+    "$value": "#e9ecef",
+    "$description": "A light gray tone."
+  },
+  "mantine-colors-gray-3": {
+    "$type": "color",
+    "$value": "#dee2e6",
+    "$description": "A medium-light gray."
+  },
+  "mantine-colors-gray-4": {
+    "$type": "color",
+    "$value": "#ced4da",
+    "$description": "A medium gray tone."
+  },
+  "mantine-colors-gray-5": {
+    "$type": "color",
+    "$value": "#adb5bd",
+    "$description": "A medium-dark gray."
+  },
+  "mantine-colors-gray-6": {
+    "$type": "color",
+    "$value": "#768089",
+    "$description": "A dark gray tone."
+  },
+  "mantine-colors-gray-7": {
+    "$type": "color",
+    "$value": "#464d53",
+    "$description": "A darker gray tone."
+  },
+  "mantine-colors-gray-8": {
+    "$type": "color",
+    "$value": "#343a40",
+    "$description": "A very dark gray."
+  },
+  "mantine-colors-gray-9": {
+    "$type": "color",
+    "$value": "#212529",
+    "$description": "The darkest gray available."
+  },
+  "mantine-colors-red-0": {
+    "$type": "color",
+    "$value": "#fff5f5",
+    "$description": "A very light red shade."
+  },
+  "mantine-colors-red-1": {
+    "$type": "color",
+    "$value": "#ffe3e3",
+    "$description": "A light red tint."
+  },
+  "mantine-colors-red-2": {
+    "$type": "color",
+    "$value": "#ffc9c9",
+    "$description": "A soft red shade."
+  },
+  "mantine-colors-red-3": {
+    "$type": "color",
+    "$value": "#ffa8a8",
+    "$description": "A moderate red tone."
+  },
+  "mantine-colors-red-4": {
+    "$type": "color",
+    "$value": "#ff8787",
+    "$description": "A slightly intense red."
+  },
+  "mantine-colors-red-5": {
+    "$type": "color",
+    "$value": "#ff6b6b",
+    "$description": "A bright red shade."
+  },
+  "mantine-colors-red-6": {
+    "$type": "color",
+    "$value": "#fa5252",
+    "$description": "A strong red used for error states."
+  },
+  "mantine-colors-red-7": {
+    "$type": "color",
+    "$value": "#f03e3e",
+    "$description": "An intense red tone."
+  },
+  "mantine-colors-red-8": {
+    "$type": "color",
+    "$value": "#e03131",
+    "$description": "A very intense red shade."
+  },
+  "mantine-colors-red-9": {
+    "$type": "color",
+    "$value": "#c92a2a",
+    "$description": "A dark red used for emphasis."
+  },
+  "mantine-colors-pink-0": {
+    "$type": "color",
+    "$value": "#fff0f6",
+    "$description": "A very light pink shade."
+  },
+  "mantine-colors-pink-1": {
+    "$type": "color",
+    "$value": "#ffdeeb",
+    "$description": "A light pink tint."
+  },
+  "mantine-colors-pink-2": {
+    "$type": "color",
+    "$value": "#fcc2d7",
+    "$description": "A soft pink shade."
+  },
+  "mantine-colors-pink-3": {
+    "$type": "color",
+    "$value": "#faa2c1",
+    "$description": "A moderate pink tone."
+  },
+  "mantine-colors-pink-4": {
+    "$type": "color",
+    "$value": "#f783ac",
+    "$description": "A slightly intense pink."
+  },
+  "mantine-colors-pink-5": {
+    "$type": "color",
+    "$value": "#f06595",
+    "$description": "A bright pink shade."
+  },
+  "mantine-colors-pink-6": {
+    "$type": "color",
+    "$value": "#e64980",
+    "$description": "A strong pink used for emphasis."
+  },
+  "mantine-colors-pink-7": {
+    "$type": "color",
+    "$value": "#d6336c",
+    "$description": "An intense pink tone."
+  },
+  "mantine-colors-pink-8": {
+    "$type": "color",
+    "$value": "#c2255c",
+    "$description": "A darker pink variant."
+  },
+  "mantine-colors-pink-9": {
+    "$type": "color",
+    "$value": "#a61e4d",
+    "$description": "The darkest pink in the palette."
+  },
+  "mantine-colors-grape-0": {
+    "$type": "color",
+    "$value": "#f8f0fc",
+    "$description": "A very light grape shade."
+  },
+  "mantine-colors-grape-1": {
+    "$type": "color",
+    "$value": "#f3d9fa",
+    "$description": "A light grape tint."
+  },
+  "mantine-colors-grape-2": {
+    "$type": "color",
+    "$value": "#eebefa",
+    "$description": "A soft grape shade."
+  },
+  "mantine-colors-grape-3": {
+    "$type": "color",
+    "$value": "#e599f7",
+    "$description": "A moderate grape tone."
+  },
+  "mantine-colors-grape-4": {
+    "$type": "color",
+    "$value": "#da77f2",
+    "$description": "A slightly intense grape."
+  },
+  "mantine-colors-grape-5": {
+    "$type": "color",
+    "$value": "#cc5de8",
+    "$description": "A bright grape shade."
+  },
+  "mantine-colors-grape-6": {
+    "$type": "color",
+    "$value": "#be4bdb",
+    "$description": "A strong grape used for emphasis."
+  },
+  "mantine-colors-grape-7": {
+    "$type": "color",
+    "$value": "#ae3ec9",
+    "$description": "An intense grape tone."
+  },
+  "mantine-colors-grape-8": {
+    "$type": "color",
+    "$value": "#9c36b5",
+    "$description": "A darker grape variant."
+  },
+  "mantine-colors-grape-9": {
+    "$type": "color",
+    "$value": "#862e9c",
+    "$description": "The darkest grape in the palette."
+  },
+  "mantine-colors-violet-0": {
+    "$type": "color",
+    "$value": "#f3f0ff",
+    "$description": "A very light violet shade."
+  },
+  "mantine-colors-violet-1": {
+    "$type": "color",
+    "$value": "#e5dbff",
+    "$description": "A light violet tint."
+  },
+  "mantine-colors-violet-2": {
+    "$type": "color",
+    "$value": "#d0bfff",
+    "$description": "A soft violet shade."
+  },
+  "mantine-colors-violet-3": {
+    "$type": "color",
+    "$value": "#b197fc",
+    "$description": "A moderate violet tone."
+  },
+  "mantine-colors-violet-4": {
+    "$type": "color",
+    "$value": "#9775fa",
+    "$description": "A slightly intense violet."
+  },
+  "mantine-colors-violet-5": {
+    "$type": "color",
+    "$value": "#845ef7",
+    "$description": "A bright violet shade."
+  },
+  "mantine-colors-violet-6": {
+    "$type": "color",
+    "$value": "#7950f2",
+    "$description": "A strong violet used for emphasis."
+  },
+  "mantine-colors-violet-7": {
+    "$type": "color",
+    "$value": "#7048e8",
+    "$description": "An intense violet tone."
+  },
+  "mantine-colors-violet-8": {
+    "$type": "color",
+    "$value": "#6741d9",
+    "$description": "A darker violet variant."
+  },
+  "mantine-colors-violet-9": {
+    "$type": "color",
+    "$value": "#5f3dc4",
+    "$description": "The darkest violet in the palette."
+  },
+  "mantine-colors-indigo-0": {
+    "$type": "color",
+    "$value": "#edf2ff",
+    "$description": "A very light indigo shade."
+  },
+  "mantine-colors-indigo-1": {
+    "$type": "color",
+    "$value": "#dbe4ff",
+    "$description": "A light indigo tint."
+  },
+  "mantine-colors-indigo-2": {
+    "$type": "color",
+    "$value": "#bac8ff",
+    "$description": "A soft indigo shade."
+  },
+  "mantine-colors-indigo-3": {
+    "$type": "color",
+    "$value": "#91a7ff",
+    "$description": "A moderate indigo tone."
+  },
+  "mantine-colors-indigo-4": {
+    "$type": "color",
+    "$value": "#748ffc",
+    "$description": "A slightly intense indigo."
+  },
+  "mantine-colors-indigo-5": {
+    "$type": "color",
+    "$value": "#5c7cfa",
+    "$description": "A bright indigo shade."
+  },
+  "mantine-colors-indigo-6": {
+    "$type": "color",
+    "$value": "#4c6ef5",
+    "$description": "A strong indigo used for emphasis."
+  },
+  "mantine-colors-indigo-7": {
+    "$type": "color",
+    "$value": "#4263eb",
+    "$description": "An intense indigo tone."
+  },
+  "mantine-colors-indigo-8": {
+    "$type": "color",
+    "$value": "#3b5bdb",
+    "$description": "A darker indigo variant."
+  },
+  "mantine-colors-indigo-9": {
+    "$type": "color",
+    "$value": "#364fc7",
+    "$description": "The darkest indigo in the palette."
+  },
+  "mantine-colors-blue-0": {
+    "$type": "color",
+    "$value": "#e7f5ff",
+    "$description": "A very light blue shade."
+  },
+  "mantine-colors-blue-1": {
+    "$type": "color",
+    "$value": "#e8f0fd",
+    "$description": "A light blue tint."
+  },
+  "mantine-colors-blue-2": {
+    "$type": "color",
+    "$value": "#cce0f9",
+    "$description": "A soft blue shade."
+  },
+  "mantine-colors-blue-3": {
+    "$type": "color",
+    "$value": "#adcdf5",
+    "$description": "A moderate blue tone."
+  },
+  "mantine-colors-blue-4": {
+    "$type": "color",
+    "$value": "#4791eb",
+    "$description": "A vibrant blue color."
+  },
+  "mantine-colors-blue-5": {
+    "$type": "color",
+    "$value": "#186cd3",
+    "$description": "A bright blue used for emphasis."
+  },
+  "mantine-colors-blue-6": {
+    "$type": "color",
+    "$value": "#145eb8",
+    "$description": "A strong blue typically used as the primary color."
+  },
+  "mantine-colors-blue-7": {
+    "$type": "color",
+    "$value": "#0f468a",
+    "$description": "An intense blue shade."
+  },
+  "mantine-colors-blue-8": {
+    "$type": "color",
+    "$value": "#0a2f5c",
+    "$description": "A darker blue variant."
+  },
+  "mantine-colors-blue-9": {
+    "$type": "color",
+    "$value": "#072345",
+    "$description": "The darkest blue in the palette."
+  },
+  "mantine-colors-cyan-0": {
+    "$type": "color",
+    "$value": "#e3fafc",
+    "$description": "A very light cyan shade."
+  },
+  "mantine-colors-cyan-1": {
+    "$type": "color",
+    "$value": "#c5f6fa",
+    "$description": "A light cyan tint."
+  },
+  "mantine-colors-cyan-2": {
+    "$type": "color",
+    "$value": "#99e9f2",
+    "$description": "A soft cyan shade."
+  },
+  "mantine-colors-cyan-3": {
+    "$type": "color",
+    "$value": "#66d9e8",
+    "$description": "A moderate cyan tone."
+  },
+  "mantine-colors-cyan-4": {
+    "$type": "color",
+    "$value": "#3bc9db",
+    "$description": "A slightly intense cyan."
+  },
+  "mantine-colors-cyan-5": {
+    "$type": "color",
+    "$value": "#22b8cf",
+    "$description": "A bright cyan used for emphasis."
+  },
+  "mantine-colors-cyan-6": {
+    "$type": "color",
+    "$value": "#15aabf",
+    "$description": "A strong cyan typically used as the primary cyan."
+  },
+  "mantine-colors-cyan-7": {
+    "$type": "color",
+    "$value": "#1098ad",
+    "$description": "An intense cyan shade."
+  },
+  "mantine-colors-cyan-8": {
+    "$type": "color",
+    "$value": "#0c8599",
+    "$description": "A darker cyan variant."
+  },
+  "mantine-colors-cyan-9": {
+    "$type": "color",
+    "$value": "#0b7285",
+    "$description": "The darkest cyan in the palette."
+  },
+  "mantine-colors-teal-0": {
+    "$type": "color",
+    "$value": "#e6fcf5",
+    "$description": "A very light teal shade."
+  },
+  "mantine-colors-teal-1": {
+    "$type": "color",
+    "$value": "#c3fae8",
+    "$description": "A light teal tint."
+  },
+  "mantine-colors-teal-2": {
+    "$type": "color",
+    "$value": "#96f2d7",
+    "$description": "A soft teal shade."
+  },
+  "mantine-colors-teal-3": {
+    "$type": "color",
+    "$value": "#63e6be",
+    "$description": "A moderate teal tone."
+  },
+  "mantine-colors-teal-4": {
+    "$type": "color",
+    "$value": "#38d9a9",
+    "$description": "A slightly intense teal."
+  },
+  "mantine-colors-teal-5": {
+    "$type": "color",
+    "$value": "#20c997",
+    "$description": "A bright teal used for emphasis."
+  },
+  "mantine-colors-teal-6": {
+    "$type": "color",
+    "$value": "#12b886",
+    "$description": "A strong teal typically used as the primary teal."
+  },
+  "mantine-colors-teal-7": {
+    "$type": "color",
+    "$value": "#0ca678",
+    "$description": "An intense teal shade."
+  },
+  "mantine-colors-teal-8": {
+    "$type": "color",
+    "$value": "#099268",
+    "$description": "A darker teal variant."
+  },
+  "mantine-colors-teal-9": {
+    "$type": "color",
+    "$value": "#087f5b",
+    "$description": "The darkest teal in the palette."
+  },
+  "mantine-colors-green-0": {
+    "$type": "color",
+    "$value": "#ebfbee",
+    "$description": "A very light green shade."
+  },
+  "mantine-colors-green-1": {
+    "$type": "color",
+    "$value": "#d3f9d8",
+    "$description": "A light green tint."
+  },
+  "mantine-colors-green-2": {
+    "$type": "color",
+    "$value": "#b2f2bb",
+    "$description": "A soft green shade."
+  },
+  "mantine-colors-green-3": {
+    "$type": "color",
+    "$value": "#8ce99a",
+    "$description": "A moderate green tone."
+  },
+  "mantine-colors-green-4": {
+    "$type": "color",
+    "$value": "#69db7c",
+    "$description": "A slightly intense green."
+  },
+  "mantine-colors-green-5": {
+    "$type": "color",
+    "$value": "#51cf66",
+    "$description": "A bright green used for emphasis."
+  },
+  "mantine-colors-green-6": {
+    "$type": "color",
+    "$value": "#40c057",
+    "$description": "A strong green typically used as the primary green."
+  },
+  "mantine-colors-green-7": {
+    "$type": "color",
+    "$value": "#37b24d",
+    "$description": "An intense green shade."
+  },
+  "mantine-colors-green-8": {
+    "$type": "color",
+    "$value": "#2f9e44",
+    "$description": "A darker green variant."
+  },
+  "mantine-colors-green-9": {
+    "$type": "color",
+    "$value": "#2b8a3e",
+    "$description": "The darkest green in the palette."
+  },
+  "mantine-colors-lime-0": {
+    "$type": "color",
+    "$value": "#f4fce3",
+    "$description": "A very light lime shade."
+  },
+  "mantine-colors-lime-1": {
+    "$type": "color",
+    "$value": "#e9fac8",
+    "$description": "A light lime tint."
+  },
+  "mantine-colors-lime-2": {
+    "$type": "color",
+    "$value": "#d8f5a2",
+    "$description": "A soft lime shade."
+  },
+  "mantine-colors-lime-3": {
+    "$type": "color",
+    "$value": "#c0eb75",
+    "$description": "A moderate lime tone."
+  },
+  "mantine-colors-lime-4": {
+    "$type": "color",
+    "$value": "#a9e34b",
+    "$description": "A slightly intense lime."
+  },
+  "mantine-colors-lime-5": {
+    "$type": "color",
+    "$value": "#94d82d",
+    "$description": "A bright lime used for emphasis."
+  },
+  "mantine-colors-lime-6": {
+    "$type": "color",
+    "$value": "#82c91e",
+    "$description": "A strong lime typically used as the primary lime."
+  },
+  "mantine-colors-lime-7": {
+    "$type": "color",
+    "$value": "#74b816",
+    "$description": "An intense lime shade."
+  },
+  "mantine-colors-lime-8": {
+    "$type": "color",
+    "$value": "#66a80f",
+    "$description": "A darker lime variant."
+  },
+  "mantine-colors-lime-9": {
+    "$type": "color",
+    "$value": "#5c940d",
+    "$description": "The darkest lime in the palette."
+  },
+  "mantine-colors-yellow-0": {
+    "$type": "color",
+    "$value": "#fff9db",
+    "$description": "A very light yellow shade."
+  },
+  "mantine-colors-yellow-1": {
+    "$type": "color",
+    "$value": "#fff3bf",
+    "$description": "A light yellow tint."
+  },
+  "mantine-colors-yellow-2": {
+    "$type": "color",
+    "$value": "#ffec99",
+    "$description": "A soft yellow shade."
+  },
+  "mantine-colors-yellow-3": {
+    "$type": "color",
+    "$value": "#ffe066",
+    "$description": "A moderate yellow tone."
+  },
+  "mantine-colors-yellow-4": {
+    "$type": "color",
+    "$value": "#ffd43b",
+    "$description": "A slightly intense yellow."
+  },
+  "mantine-colors-yellow-5": {
+    "$type": "color",
+    "$value": "#fcc419",
+    "$description": "A bright yellow used for emphasis."
+  },
+  "mantine-colors-yellow-6": {
+    "$type": "color",
+    "$value": "#fab005",
+    "$description": "A strong yellow typically used as the primary yellow."
+  },
+  "mantine-colors-yellow-7": {
+    "$type": "color",
+    "$value": "#f59f00",
+    "$description": "An intense yellow shade."
+  },
+  "mantine-colors-yellow-8": {
+    "$type": "color",
+    "$value": "#f08c00",
+    "$description": "A darker yellow variant."
+  },
+  "mantine-colors-yellow-9": {
+    "$type": "color",
+    "$value": "#e67700",
+    "$description": "The darkest yellow in the palette."
+  },
+  "mantine-colors-orange-0": {
+    "$type": "color",
+    "$value": "#fff4e6",
+    "$description": "A very light orange shade."
+  },
+  "mantine-colors-orange-1": {
+    "$type": "color",
+    "$value": "#ffe8cc",
+    "$description": "A light orange tint."
+  },
+  "mantine-colors-orange-2": {
+    "$type": "color",
+    "$value": "#ffd8a8",
+    "$description": "A soft orange shade."
+  },
+  "mantine-colors-orange-3": {
+    "$type": "color",
+    "$value": "#ffc078",
+    "$description": "A moderate orange tone."
+  },
+  "mantine-colors-orange-4": {
+    "$type": "color",
+    "$value": "#ffa94d",
+    "$description": "A slightly intense orange."
+  },
+  "mantine-colors-orange-5": {
+    "$type": "color",
+    "$value": "#ff922b",
+    "$description": "A bright orange used for emphasis."
+  },
+  "mantine-colors-orange-6": {
+    "$type": "color",
+    "$value": "#fd7e14",
+    "$description": "A strong orange typically used as the primary orange."
+  },
+  "mantine-colors-orange-7": {
+    "$type": "color",
+    "$value": "#f76707",
+    "$description": "An intense orange shade."
+  },
+  "mantine-colors-orange-8": {
+    "$type": "color",
+    "$value": "#e8590c",
+    "$description": "A darker orange variant."
+  },
+  "mantine-colors-orange-9": {
+    "$type": "color",
+    "$value": "#d9480f",
+    "$description": "The darkest orange in the palette."
+  },
+  "mantine-primary-colors-filled": {
+    "$type": "color",
+    "$value": "#228be6",
+    "$description": "Primary filled color used on actionable elements."
+  },
+  "mantine-primary-colors-filled-hover": {
+    "$type": "color",
+    "$value": "#1c7ed6",
+    "$description": "Hover state for the primary filled color."
+  },
+  "mantine-primary-colors-light": {
+    "$type": "color",
+    "$value": "#e7f5ff",
+    "$description": "Primary light variant for alternative styling."
+  },
+  "mantine-primary-colors-light-hover": {
+    "$type": "color",
+    "$value": "#d0ebff",
+    "$description": "Hover state for the primary light variant."
+  },
+  "mantine-primary-colors-light-color": {
+    "$type": "color",
+    "$value": "#1971c2",
+    "$description": "Text color used on the primary light background."
+  },
+  "mantine-primary-colors-palette-0": {
+    "$type": "color",
+    "$value": "#e7f5ff",
+    "$description": "Primary palette shade 0."
+  },
+  "mantine-secondary-colors-filled": {
+    "$type": "color",
+    "$value": "#fa5252",
+    "$description": "Secondary filled color used on actionable elements."
+  },
+  "mantine-secondary-colors-filled-hover": {
+    "$type": "color",
+    "$value": "#f03e3e",
+    "$description": "Hover state for the secondary filled color."
+  },
+  "mantine-secondary-colors-light": {
+    "$type": "color",
+    "$value": "#fff5f5",
+    "$description": "Secondary light variant for alternative styling."
+  },
+  "mantine-secondary-colors-light-hover": {
+    "$type": "color",
+    "$value": "#ffe3e3",
+    "$description": "Hover state for the secondary light variant."
+  },
+  "mantine-secondary-colors-light-color": {
+    "$type": "color",
+    "$value": "#e03131",
+    "$description": "Text color used on the secondary light background."
+  },
+  "mantine-secondary-colors-palette-0": {
+    "$type": "color",
+    "$value": "#fff5f5",
+    "$description": "Secondary palette shade 0."
+  },
+  "mantine-secondary-colors-palette-1": {
+    "$type": "color",
+    "$value": "#ffe3e3",
+    "$description": "Secondary palette shade 1."
+  },
+  "mantine-secondary-colors-palette-2": {
+    "$type": "color",
+    "$value": "#ffc9c9",
+    "$description": "Secondary palette shade 2."
+  },
+  "mantine-secondary-colors-palette-3": {
+    "$type": "color",
+    "$value": "#ffa8a8",
+    "$description": "Secondary palette shade 3."
+  },
+  "mantine-secondary-colors-palette-4": {
+    "$type": "color",
+    "$value": "#ff8787",
+    "$description": "Secondary palette shade 4."
+  },
+  "mantine-secondary-colors-palette-5": {
+    "$type": "color",
+    "$value": "#ff6b6b",
+    "$description": "Secondary palette shade 5."
+  },
+  "mantine-secondary-colors-palette-6": {
+    "$type": "color",
+    "$value": "#fa5252",
+    "$description": "Secondary palette shade 6."
+  },
+  "mantine-secondary-colors-palette-7": {
+    "$type": "color",
+    "$value": "#f03e3e",
+    "$description": "Secondary palette shade 7."
+  },
+  "mantine-secondary-colors-palette-8": {
+    "$type": "color",
+    "$value": "#e03131",
+    "$description": "Secondary palette shade 8."
+  },
+  "mantine-secondary-colors-palette-9": {
+    "$type": "color",
+    "$value": "#c92a2a",
+    "$description": "Secondary palette shade 9."
+  },
+  "mantine-theme-dark-color-primary-base": {
+    "$type": "color",
+    "$value": "#228be6",
+    "$description": "Primary base color for dark theme"
+  },
+  "mantine-theme-dark-color-primary-hover": {
+    "$type": "color",
+    "$value": "#1c7ed6",
+    "$description": "Primary hover color for dark theme"
+  },
+  "mantine-theme-dark-color-primary-contrast": {
+    "$type": "color",
+    "$value": "#ffffff",
+    "$description": "Contrast color for primary elements"
+  },
+  "mantine-theme-dark-color-background-default": {
+    "$type": "color",
+    "$value": "#242424",
+    "$description": "Default background color"
+  },
+  "mantine-theme-dark-color-background-muted": {
+    "$type": "color",
+    "$value": "#2e2e2e",
+    "$description": "Muted background color"
+  },
+  "mantine-theme-dark-color-text-default": {
+    "$type": "color",
+    "$value": "#c9c9c9",
+    "$description": "Default text color"
+  },
+  "mantine-theme-dark-color-text-muted": {
+    "$type": "color",
+    "$value": "#828282",
+    "$description": "Muted text color"
+  },
+  "mantine-theme-light-color-primary-base": {
+    "$type": "color",
+    "$value": "#228be6",
+    "$description": "Primary base color for light theme"
+  },
+  "mantine-theme-light-color-primary-hover": {
+    "$type": "color",
+    "$value": "#1c7ed6",
+    "$description": "Primary hover color for light theme"
+  },
+  "mantine-theme-light-color-primary-contrast": {
+    "$type": "color",
+    "$value": "#ffffff",
+    "$description": "Contrast color for primary elements"
+  },
+  "mantine-theme-light-color-background-default": {
+    "$type": "color",
+    "$value": "#ffffff",
+    "$description": "Default background color"
+  },
+  "mantine-theme-light-color-background-muted": {
+    "$type": "color",
+    "$value": "#f8f9fa",
+    "$description": "Muted background color"
+  },
+  "mantine-theme-light-color-text-default": {
+    "$type": "color",
+    "$value": "#000000",
+    "$description": "Default text color"
+  },
+  "mantine-theme-light-color-text-muted": {
+    "$type": "color",
+    "$value": "#868e96",
+    "$description": "Muted text color"
+  },
+  "mantine-colors-blue-10": {
+    "$type": "color",
+    "$value": "#05172e",
+    "$description": "The darkest blue in the palette."
+  },
+  "mantine-breakpoints-xs": {
+    "$type": "dimension",
+    "$value": "36rem",
+    "$description": "Breakpoint for extra-small screens."
+  },
+  "mantine-breakpoints-sm": {
+    "$type": "dimension",
+    "$value": "48rem",
+    "$description": "Breakpoint for small screens."
+  },
+  "mantine-breakpoints-md": {
+    "$type": "dimension",
+    "$value": "62rem",
+    "$description": "Breakpoint for medium screens."
+  },
+  "mantine-breakpoints-lg": {
+    "$type": "dimension",
+    "$value": "75rem",
+    "$description": "Breakpoint for large screens."
+  },
+  "mantine-breakpoints-xl": {
+    "$type": "dimension",
+    "$value": "88rem",
+    "$description": "Breakpoint for extra-large screens."
+  },
+  "mantine-font-sizes-xs": {
+    "$type": "dimension",
+    "$value": "0.75rem",
+    "$description": "Extra small font size."
+  },
+  "mantine-font-sizes-sm": {
+    "$type": "dimension",
+    "$value": "0.875rem",
+    "$description": "Small font size."
+  },
+  "mantine-font-sizes-md": {
+    "$type": "dimension",
+    "$value": "1rem",
+    "$description": "Medium font size."
+  },
+  "mantine-font-sizes-lg": {
+    "$type": "dimension",
+    "$value": "1.125rem",
+    "$description": "Large font size."
+  },
+  "mantine-font-sizes-xl": {
+    "$type": "dimension",
+    "$value": "1.25rem",
+    "$description": "Extra large font size."
+  },
+  "mantine-settings-scale": {
+    "$type": "dimension",
+    "$value": "0.062rem",
+    "$description": "Base scale value used for sizing calculations."
+  },
+  "mantine-headings-h1-font-size": {
+    "$type": "dimension",
+    "$value": "2.125rem",
+    "$description": "Font size for H1 headings."
+  },
+  "mantine-headings-h1-line-height": {
+    "$type": "dimension",
+    "$value": "0.081rem",
+    "$description": "Line height for H1 headings."
+  },
+  "mantine-headings-h2-font-size": {
+    "$type": "dimension",
+    "$value": "1.625rem",
+    "$description": "Font size for H2 headings."
+  },
+  "mantine-headings-h2-line-height": {
+    "$type": "dimension",
+    "$value": "0.084rem",
+    "$description": "Line height for H2 headings."
+  },
+  "mantine-headings-h2-font-weight": {
+    "$type": "dimension",
+    "$value": "43.75rem",
+    "$description": "Font weight for H2 headings."
+  },
+  "mantine-headings-h3-font-size": {
+    "$type": "dimension",
+    "$value": "1.375rem",
+    "$description": "Font size for H3 headings."
+  },
+  "mantine-headings-h3-line-height": {
+    "$type": "dimension",
+    "$value": "0.087rem",
+    "$description": "Line height for H3 headings."
+  },
+  "mantine-headings-h3-font-weight": {
+    "$type": "dimension",
+    "$value": "43.75rem",
+    "$description": "Font weight for H3 headings."
+  },
+  "mantine-headings-h4-font-size": {
+    "$type": "dimension",
+    "$value": "1.125rem",
+    "$description": "Font size for H4 headings."
+  },
+  "mantine-headings-h4-line-height": {
+    "$type": "dimension",
+    "$value": "0.091rem",
+    "$description": "Line height for H4 headings."
+  },
+  "mantine-headings-h4-font-weight": {
+    "$type": "dimension",
+    "$value": "43.75rem",
+    "$description": "Font weight for H4 headings."
+  },
+  "mantine-headings-h5-font-size": {
+    "$type": "dimension",
+    "$value": "1rem",
+    "$description": "Font size for H5 headings."
+  },
+  "mantine-headings-h5-line-height": {
+    "$type": "dimension",
+    "$value": "0.094rem",
+    "$description": "Line height for H5 headings."
+  },
+  "mantine-headings-h5-font-weight": {
+    "$type": "dimension",
+    "$value": "43.75rem",
+    "$description": "Font weight for H5 headings."
+  },
+  "mantine-headings-h6-font-size": {
+    "$type": "dimension",
+    "$value": "0.875rem",
+    "$description": "Font size for H6 headings."
+  },
+  "mantine-headings-h6-line-height": {
+    "$type": "dimension",
+    "$value": "0.094rem",
+    "$description": "Line height for H6 headings."
+  },
+  "mantine-headings-h6-font-weight": {
+    "$type": "dimension",
+    "$value": "43.75rem",
+    "$description": "Font weight for H6 headings."
+  },
+  "mantine-line-heights-xs": {
+    "$type": "dimension",
+    "$value": "0.087rem",
+    "$description": "Line height for extra small text."
+  },
+  "mantine-line-heights-sm": {
+    "$type": "dimension",
+    "$value": "0.091rem",
+    "$description": "Line height for small text."
+  },
+  "mantine-line-heights-md": {
+    "$type": "dimension",
+    "$value": "0.097rem",
+    "$description": "Line height for medium text."
+  },
+  "mantine-line-heights-lg": {
+    "$type": "dimension",
+    "$value": "0.1rem",
+    "$description": "Line height for large text."
+  },
+  "mantine-line-heights-xl": {
+    "$type": "dimension",
+    "$value": "0.103rem",
+    "$description": "Line height for extra large text."
+  },
+  "mantine-radii-default": {
+    "$type": "dimension",
+    "$value": "0.25rem",
+    "$description": "Default border radius for UI elements."
+  },
+  "mantine-radii-xs": {
+    "$type": "dimension",
+    "$value": "0.125rem",
+    "$description": "Extra small border radius."
+  },
+  "mantine-radii-sm": {
+    "$type": "dimension",
+    "$value": "0.25rem",
+    "$description": "Small border radius."
+  },
+  "mantine-radii-md": {
+    "$type": "dimension",
+    "$value": "0.5rem",
+    "$description": "Medium border radius."
+  },
+  "mantine-radii-lg": {
+    "$type": "dimension",
+    "$value": "1rem",
+    "$description": "Large border radius."
+  },
+  "mantine-radii-xl": {
+    "$type": "dimension",
+    "$value": "2rem",
+    "$description": "Extra large border radius."
+  },
+  "mantine-spacing-xs": {
+    "$type": "dimension",
+    "$value": "0.5rem",
+    "$description": "Extra small spacing for margins and padding."
+  },
+  "mantine-spacing-sm": {
+    "$type": "dimension",
+    "$value": "0.75rem",
+    "$description": "Small spacing value."
+  },
+  "mantine-spacing-md": {
+    "$type": "dimension",
+    "$value": "1rem",
+    "$description": "Medium spacing value."
+  },
+  "mantine-spacing-lg": {
+    "$type": "dimension",
+    "$value": "1.25rem",
+    "$description": "Large spacing value."
+  },
+  "mantine-spacing-xl": {
+    "$type": "dimension",
+    "$value": "2rem",
+    "$description": "Extra large spacing value."
+  },
+  "mantine-typography-heading-font-weight": {
+    "$type": "dimension",
+    "$value": "43.75rem",
+    "$description": "Font weight applied to headings."
+  },
+  "mantine-typography-line-height": {
+    "$type": "dimension",
+    "$value": "0.097rem",
+    "$description": "Default line height for body text."
+  },
+  "mantine-theme-dark-spacing-xs": {
+    "$type": "dimension",
+    "$value": "0.625rem"
+  },
+  "mantine-theme-dark-spacing-sm": {
+    "$type": "dimension",
+    "$value": "0.75rem"
+  },
+  "mantine-theme-dark-spacing-md": {
+    "$type": "dimension",
+    "$value": "1rem"
+  },
+  "mantine-theme-dark-spacing-lg": {
+    "$type": "dimension",
+    "$value": "1.25rem"
+  },
+  "mantine-theme-dark-spacing-xl": {
+    "$type": "dimension",
+    "$value": "2rem"
+  },
+  "mantine-theme-light-spacing-xs": {
+    "$type": "dimension",
+    "$value": "0.625rem"
+  },
+  "mantine-theme-light-spacing-sm": {
+    "$type": "dimension",
+    "$value": "0.75rem"
+  },
+  "mantine-theme-light-spacing-md": {
+    "$type": "dimension",
+    "$value": "1rem"
+  },
+  "mantine-theme-light-spacing-lg": {
+    "$type": "dimension",
+    "$value": "1.25rem"
+  },
+  "mantine-theme-light-spacing-xl": {
+    "$type": "dimension",
+    "$value": "2rem"
+  }
+}
