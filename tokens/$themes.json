@@ -1,25 +1,12 @@
 [
   {
-    "id": "core",
-    "name": "Core",
-    "selectedTokenSets": {
-      "primitives/mantine": "enabled",
-      "primitives/colors": "enabled",
-      "typography": "enabled",
-      "borders": "enabled",
-      "padding": "enabled",
-      "spacing": "enabled",
-      "radius": "enabled",
-      "shadows": "enabled"
-    }
-  },
-  {
     "id": "light",
-    "name": "Light Theme",
+    "name": "Light",
+    "group": "ClearCo Theme",
     "selectedTokenSets": {
-      "primitives/mantine": "enabled",
-      "primitives/colors": "enabled",
-      "semantic/light": "enabled",
+      "primitives/mantine": "source",
+      "primitives/colors": "source",
+      "semantic/light": "source",
       "typography": "enabled",
       "borders": "enabled",
       "padding": "enabled",
@@ -30,11 +17,12 @@
   },
   {
     "id": "dark",
-    "name": "Dark Theme",
+    "name": "Dark",
+    "group": "ClearCo Theme",
     "selectedTokenSets": {
-      "primitives/mantine": "enabled",
-      "primitives/colors": "enabled",
-      "semantic/dark": "enabled",
+      "primitives/mantine": "source",
+      "primitives/colors": "source",
+      "semantic/dark": "source",
       "typography": "enabled",
       "borders": "enabled",
       "padding": "enabled",
