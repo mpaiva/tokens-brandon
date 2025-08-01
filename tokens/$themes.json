@@ -6,7 +6,7 @@
     "selectedTokenSets": {
       "primitives/mantine": "source",
       "primitives/colors": "source",
-      "semantic/light": "source",
+      "semantic/light": "enabled",
       "typography": "enabled",
       "borders": "enabled",
       "padding": "enabled",
@@ -22,7 +22,7 @@
     "selectedTokenSets": {
       "primitives/mantine": "source",
       "primitives/colors": "source",
-      "semantic/dark": "source",
+      "semantic/dark": "enabled",
       "typography": "enabled",
       "borders": "enabled",
       "padding": "enabled",

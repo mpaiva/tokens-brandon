@@ -6,27 +6,27 @@
   },
   "xs": {
     "$type": "dimension",
-    "$value": "{radius.xs}",
+    "$value": "{primitives.mantine.radius.xs}",
     "$description": "Extra small radius - 2px, subtle rounding"
   },
   "sm": {
     "$type": "dimension",
-    "$value": "{radius.sm}",
+    "$value": "{primitives.mantine.radius.sm}",
     "$description": "Small radius - 4px, standard for buttons and inputs"
   },
   "md": {
     "$type": "dimension",
-    "$value": "{radius.md}",
+    "$value": "{primitives.mantine.radius.md}",
     "$description": "Medium radius - 8px, use for cards and containers"
   },
   "lg": {
     "$type": "dimension",
-    "$value": "{radius.lg}",
+    "$value": "{primitives.mantine.radius.lg}",
     "$description": "Large radius - 16px, use for modals and large cards"
   },
   "xl": {
     "$type": "dimension",
-    "$value": "{radius.xl}",
+    "$value": "{primitives.mantine.radius.xl}",
     "$description": "Extra large radius - 32px, use for feature boxes"
   },
   "xxl": {
@@ -36,7 +36,7 @@
   },
   "default": {
     "$type": "dimension",
-    "$value": "{radius.default}",
+    "$value": "{primitives.mantine.radius.default}",
     "$description": "Default border radius - typically small (4px)"
   }
 }
