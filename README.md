@@ -54,30 +54,28 @@ npm run clean
 
 ## Importing Tokens into Figma with Tokens Studio
 
-The tokens can be imported back into Figma using the Tokens Studio plugin:
+To import these tokens into Tokens Studio for Figma:
 
 1. Open Tokens Studio plugin in Figma
-2. Go to Settings → Import
-3. Choose "Import JSON" 
-4. Select `dist/tokens.studio.json`
-5. All tokens will be imported with dot-notation keys (e.g., `primitives.colors.blue.5`)
+2. Click on the Tools icon on the bottom left corner
+3. Select "Load from file/folder or preset"
+4. Select "File or Folder" tab
+5. Click "Choose folder"
+6. Navigate to and select the `tokens` folder from this repository
+7. Click "Upload"
 
-### Generating the Import File
+The tokens will be imported with the following structure:
 
-The import file is automatically generated when you run any build command:
+- Each JSON file becomes a token set
+- Token references between sets are preserved
+- All tokens are immediately usable in your Figma designs
 
-```bash
-# Any of these commands will generate tokens.studio.json
-npm run build:all
-npm run build:clearco
-node build/prepare-figma-import.js
-```
-
-This creates `dist/tokens.studio.json` with all tokens in a single flat structure, making it easy to import everything at once into Tokens Studio.
+**Note**: Make sure to select the `tokens` folder itself, not the individual JSON files or the parent directory.
 
 ### Syncing Changes Back
 
 After making changes in Figma:
+
 1. Export from Tokens Studio
 2. Replace the corresponding files in the `tokens/` directory
 3. Run `npm run build:all` to regenerate CSS/JSON outputs
@@ -85,14 +83,18 @@ After making changes in Figma:
 ## Token Organization
 
 ### Mantine Tokens
+
 All Mantine UI framework variables are preserved in `primitives/mantine.json` and built to `dist/mantine-variables.css`.
 
 ### ClearCo Tokens
+
 Custom design tokens are organized by type:
+
 - **Shared tokens**: Typography, spacing, borders (same in all themes)
 - **Theme-specific tokens**: Colors that change between light and dark modes
 
 The CSS output uses:
+
 - `:root` for base tokens and light mode colors
 - `[data-mantine-color-scheme="dark"]` for dark mode color overrides
 
@@ -106,12 +108,13 @@ The CSS output uses:
 ## Using the Tokens
 
 ### In CSS
+
 ```css
 /* Mantine variables */
-@import 'path/to/dist/mantine-variables.css';
+@import "path/to/dist/mantine-variables.css";
 
 /* ClearCo tokens */
-@import 'path/to/dist/clearco-tokens.css';
+@import "path/to/dist/clearco-tokens.css";
 
 /* Usage */
 .my-component {
@@ -122,8 +125,9 @@ The CSS output uses:
 ```
 
 ### In JavaScript
+
 ```js
-import tokens from 'path/to/dist/clearco-tokens.json';
+import tokens from "path/to/dist/clearco-tokens.json";
 
 // Access shared tokens
 const fontSize = tokens.shared.fontFamilies.body.$value;
