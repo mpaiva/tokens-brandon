@@ -26,8 +26,7 @@ dist/
 
 build/
 ├── build-complete.js      # Builds Mantine CSS variables
-├── build-clearco.js       # Builds ClearCo tokens
-└── prepare-figma-import.js # Prepares tokens for Figma import
+└── build-clearco.js       # Builds ClearCo tokens
 ```
 
 ## Building Tokens
