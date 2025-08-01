@@ -1,0 +1,104 @@
+{
+  "xs": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "color": "#0000000d",
+        "offsetX": "0rem",
+        "offsetY": "0.062rem",
+        "blur": "0.188rem",
+        "spread": "0rem"
+      },
+      {
+        "color": "#0000001a",
+        "offsetX": "0rem",
+        "offsetY": "0.062rem",
+        "blur": "0.125rem",
+        "spread": "0rem"
+      }
+    ]
+  },
+  "sm": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "color": "#0000000d",
+        "offsetX": "0rem",
+        "offsetY": "0.062rem",
+        "blur": "0.188rem",
+        "spread": "0rem"
+      },
+      {
+        "color": "#0000000a",
+        "offsetX": "-0.312rem",
+        "offsetY": "0.938rem",
+        "blur": "0.438rem",
+        "spread": "0rem"
+      }
+    ]
+  },
+  "md": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "color": "#0000000d",
+        "offsetX": "0rem",
+        "offsetY": "0.062rem",
+        "blur": "0.188rem",
+        "spread": "0rem"
+      },
+      {
+        "color": "#0000000a",
+        "offsetX": "1.562rem",
+        "offsetY": "-0.312rem",
+        "blur": "0.625rem",
+        "spread": "0rem"
+      }
+    ]
+  },
+  "lg": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "color": "#0000000d",
+        "offsetX": "0rem",
+        "offsetY": "0.062rem",
+        "blur": "0.188rem",
+        "spread": "0rem"
+      },
+      {
+        "color": "#0000000a",
+        "offsetX": "1.438rem",
+        "offsetY": "-0.438rem",
+        "blur": "0.75rem",
+        "spread": "0rem"
+      }
+    ]
+  },
+  "xl": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "color": "#0000000d",
+        "offsetX": "0rem",
+        "offsetY": "0.062rem",
+        "blur": "0.188rem",
+        "spread": "0rem"
+      },
+      {
+        "color": "#0000000a",
+        "offsetX": "2.25rem",
+        "offsetY": "1.75rem",
+        "blur": "0.438rem",
+        "spread": "0rem"
+      },
+      {
+        "color": "#0000000a",
+        "offsetX": "1.062rem",
+        "offsetY": "1.062rem",
+        "blur": "0.438rem",
+        "spread": "0rem"
+      }
+    ]
+  }
+}

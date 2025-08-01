@@ -1,0 +1,34 @@
+{
+  "none": {
+    "$type": "dimension",
+    "$value": "0rem"
+  },
+  "xxs": {
+    "$type": "dimension",
+    "$value": "0.25rem"
+  },
+  "xs": {
+    "$type": "dimension",
+    "$value": "{spacing.xs}"
+  },
+  "sm": {
+    "$type": "dimension",
+    "$value": "{spacing.sm}"
+  },
+  "md": {
+    "$type": "dimension",
+    "$value": "{spacing.md}"
+  },
+  "lg": {
+    "$type": "dimension",
+    "$value": "{spacing.lg}"
+  },
+  "xl": {
+    "$type": "dimension",
+    "$value": "{spacing.xl}"
+  },
+  "xxl": {
+    "$type": "dimension",
+    "$value": "2.5rem"
+  }
+}

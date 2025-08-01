@@ -1,0 +1,24 @@
+{
+  "width": {
+    "none": {
+      "$type": "dimension",
+      "$value": "0rem"
+    },
+    "hairline": {
+      "$type": "dimension",
+      "$value": "0.063rem"
+    },
+    "thin": {
+      "$type": "dimension",
+      "$value": "0.125rem"
+    },
+    "medium": {
+      "$type": "dimension",
+      "$value": "0.188rem"
+    },
+    "thick": {
+      "$type": "dimension",
+      "$value": "0.25rem"
+    }
+  }
+}

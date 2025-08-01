@@ -1,14 +1,14 @@
 {
   "tokenSetOrder": [
-    ".Mantine – variables/Mantine/variables",
-    "Color/Primitives/Colors",
-    "Colors - Semantic/Light Theme",
-    "Colors - Semantic/Dark Theme",
-    "Shadows/Mode 1",
-    "Typography/Value",
-    "Radius/Mode 1",
-    "Padding/Mode 1",
-    "Spacing/Mode 1",
-    "Borders/Mode 1"
+    "primitives/mantine",
+    "primitives/colors",
+    "semantic/light",
+    "semantic/dark",
+    "typography",
+    "borders",
+    "padding",
+    "spacing",
+    "radius",
+    "shadows"
   ]
 }

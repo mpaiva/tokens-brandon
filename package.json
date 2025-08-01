@@ -1,0 +1,24 @@
+{
+  "name": "tokens-brandon",
+  "version": "1.0.0",
+  "description": "Design tokens for Mantine-based design system",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build/build-complete.js",
+    "build:clearco": "node build/build-clearco.js && node build/prepare-figma-import.js",
+    "build:all": "npm run build && npm run build:clearco",
+    "clean": "rm -rf dist/",
+    "watch": "npm run build:all && chokidar 'tokens/**/*.json' -c 'npm run build:all'"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.9.1",
+    "chokidar-cli": "^3.0.0"
+  },
+  "keywords": [
+    "design-tokens",
+    "mantine",
+    "design-system"
+  ],
+  "author": "",
+  "license": "ISC"
+}

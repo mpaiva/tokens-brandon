@@ -1,0 +1,166 @@
+/**
+ * ClearCo Design Tokens
+ * Custom tokens for the ClearCo design system
+ * Supports light and dark modes
+ */
+
+/* Base tokens and light mode colors (default) */
+:root {
+
+  /* Typography */
+  --clearco-fontFamilies-body: Public Sans;
+  --clearco-fontFamilies-heading: Atkinson Hyperlegible Next;
+  --clearco-fontFamilies-label: Public Sans;
+  --clearco-fontFamilies-monospace: Atkinson Hyperlegible Mono;
+  --clearco-fontWeights-bold: 700;
+  --clearco-fontWeights-medium: 500;
+  --clearco-fontWeights-regular: 400;
+
+  /* Spacing */
+  --clearco-3xs: 0.125rem;
+  --clearco-lg: 1.25rem;
+  --clearco-md: 0.938rem;
+  --clearco-sm: 0.625rem;
+  --clearco-xl: 1.875rem;
+  --clearco-xs: 0.375rem;
+  --clearco-xxs: 0.188rem;
+
+  /* Borders */
+  --clearco-width-hairline: 0.063rem;
+  --clearco-width-medium: 0.188rem;
+  --clearco-width-none: 0rem;
+  --clearco-width-thick: 0.25rem;
+  --clearco-width-thin: 0.125rem;
+
+  /* Text colors */
+  --clearco-text-body-default: {gray.7};
+  --clearco-text-body-placeholder: {gray.5};
+  --clearco-text-default: {gray.9};
+  --clearco-text-dimmed: {gray.6}; /* Use for secondary or less important text */
+  --clearco-text-disabled-default: {gray.5};
+  --clearco-text-error-default: {red.8}; /* Use for error texts */
+  --clearco-text-heading-default: {gray.9};
+  --clearco-text-info-default: {blue.5};
+  --clearco-text-label-default: {blue.5};
+  --clearco-text-link: {blue.5};
+  --clearco-text-success-default: {green.8};
+  --clearco-text-title: {gray.9};
+  --clearco-text-warning-default: {yellow.8};
+
+  /* Background colors */
+  --clearco-background-body: {neutral.white}; /* Usually for your application background */
+  --clearco-background-default: {neutral.white}; /* Use to set a default color for various elements across your application */
+  --clearco-background-default-hover: {gray.0}; /* use for hover state for various elements */
+  --clearco-background-disabled-default: {gray.2};
+  --clearco-background-error-filled: {red.8};
+  --clearco-background-error-filled-hover: {red.9};
+  --clearco-background-error-light: {red.light-12};
+  --clearco-background-error-light-hover: #fa52521f;
+  --clearco-background-gray-filled: {gray.6};
+  --clearco-background-gray-filled-hover: {gray.7};
+  --clearco-background-gray-light: {gray.0};
+  --clearco-background-gray-light-hover: #868e961f;
+  --clearco-background-info-filled: {blue.5};
+  --clearco-background-info-filled-hover: {blue.6};
+  --clearco-background-info-light: #4c6ef51a;
+  --clearco-background-info-light-hover: #4c6ef51f;
+  --clearco-background-primary-filled: {blue.5};
+  --clearco-background-primary-filled-hover: {blue.7};
+  --clearco-background-primary-light: {primary.light-10};
+  --clearco-background-primary-light-hover: {primary.light-12};
+  --clearco-background-success-filled: {green.8};
+  --clearco-background-success-filled-hover: {green.9};
+  --clearco-background-success-light: #12b8861a;
+  --clearco-background-success-light-hover: #12b8861f;
+  --clearco-background-transparent: #ffffff00;
+  --clearco-background-warning-filled: {yellow.8};
+  --clearco-background-warning-filled-hover: {yellow.9};
+  --clearco-background-warning-light: #fab0051a;
+  --clearco-background-warning-light-hover: #fab0051f;
+
+  /* Border colors */
+  --clearco-border-default: {gray.3};
+  --clearco-border-disabled-default: {gray.2};
+  --clearco-border-error-default: {red.6};
+  --clearco-border-gray-default: {gray.6};
+  --clearco-border-info-default: {blue.5};
+  --clearco-border-primary-default: {primary.5};
+  --clearco-border-success-default: {green.6};
+  --clearco-border-warning-default: {yellow.6};
+
+  /* Color primitives */
+  --clearco-colors-primary-dark-15: #228be626; /* Primary color with 15% opacity for light backgrounds (dark mode) */
+  --clearco-colors-primary-dark-20: #228be633; /* Primary color with 20% opacity for hover states (dark mode) */
+  --clearco-colors-primary-light-10: #228be61a; /* Primary color with 10% opacity for light backgrounds (light mode) */
+  --clearco-colors-primary-light-12: #228be61f; /* Primary color with 12% opacity for hover states (light mode) */
+  --clearco-colors-red-dark-15: #fa525226; /* Red with 15% opacity for dark mode */
+  --clearco-colors-red-light-12: #fa52521f; /* Red with 12% opacity for light backgrounds */
+}
+
+/* Dark mode (colors only) */
+[data-mantine-color-scheme="dark"] {
+
+  /* Text colors */
+  --clearco-text-body-default: {gray.2};
+  --clearco-text-body-placeholder: {gray.5};
+  --clearco-text-default: {dark.0};
+  --clearco-text-dimmed: {dark.3}; /* Use for secondary or less important text in dark mode */
+  --clearco-text-disabled-default: {dark.5};
+  --clearco-text-error-default: {red.5}; /* Use for error texts in dark mode */
+  --clearco-text-heading-default: {neutral.white};
+  --clearco-text-info-default: {blue.4};
+  --clearco-text-label-default: {blue.4};
+  --clearco-text-link: {blue.4};
+  --clearco-text-success-default: {green.5};
+  --clearco-text-title: {gray.0};
+  --clearco-text-warning-default: {yellow.5};
+
+  /* Background colors */
+  --clearco-background-body: {dark.7}; /* Usually for your application background in dark mode */
+  --clearco-background-default: {dark.6}; /* Use to set a default color for various elements in dark mode */
+  --clearco-background-default-hover: {dark.5}; /* use for hover state for various elements in dark mode */
+  --clearco-background-disabled-default: {dark.8};
+  --clearco-background-error-filled: {red.6};
+  --clearco-background-error-filled-hover: {red.7};
+  --clearco-background-error-light: {red.dark-15};
+  --clearco-background-error-light-hover: #fa525233;
+  --clearco-background-gray-filled: {dark.4};
+  --clearco-background-gray-filled-hover: {dark.3};
+  --clearco-background-gray-light: {dark.8};
+  --clearco-background-gray-light-hover: #86909633;
+  --clearco-background-info-filled: {blue.5};
+  --clearco-background-info-filled-hover: {blue.6};
+  --clearco-background-info-light: #4c6ef526;
+  --clearco-background-info-light-hover: #4c6ef533;
+  --clearco-background-primary-filled: {blue.5};
+  --clearco-background-primary-filled-hover: {blue.6};
+  --clearco-background-primary-light: {primary.dark-15};
+  --clearco-background-primary-light-hover: {primary.dark-20};
+  --clearco-background-success-filled: {green.6};
+  --clearco-background-success-filled-hover: {green.7};
+  --clearco-background-success-light: #12b88626;
+  --clearco-background-success-light-hover: #12b88633;
+  --clearco-background-transparent: #ffffff00;
+  --clearco-background-warning-filled: {yellow.6};
+  --clearco-background-warning-filled-hover: {yellow.7};
+  --clearco-background-warning-light: #fab00526;
+  --clearco-background-warning-light-hover: #fab00533;
+
+  /* Border colors */
+  --clearco-border-default: {dark.4};
+  --clearco-border-disabled-default: {dark.6};
+  --clearco-border-error-default: {red.5};
+  --clearco-border-gray-default: {dark.3};
+  --clearco-border-info-default: {blue.4};
+  --clearco-border-primary-default: {primary.4};
+  --clearco-border-success-default: {green.5};
+  --clearco-border-warning-default: {yellow.5};
+
+  /* Color primitives */
+  --clearco-colors-primary-dark-15: #228be626; /* Primary color with 15% opacity for light backgrounds (dark mode) */
+  --clearco-colors-primary-dark-20: #228be633; /* Primary color with 20% opacity for hover states (dark mode) */
+  --clearco-colors-primary-light-10: #228be61a; /* Primary color with 10% opacity for light backgrounds (light mode) */
+  --clearco-colors-primary-light-12: #228be61f; /* Primary color with 12% opacity for hover states (light mode) */
+  --clearco-colors-red-dark-15: #fa525226; /* Red with 15% opacity for dark mode */
+  --clearco-colors-red-light-12: #fa52521f; /* Red with 12% opacity for light backgrounds */
+}

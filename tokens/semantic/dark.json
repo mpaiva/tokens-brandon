@@ -1,0 +1,257 @@
+{
+  "text": {
+    "title": {
+      "$type": "color",
+      "$value": "{gray.0}"
+    },
+    "error": {
+      "default": {
+        "$type": "color",
+        "$value": "{red.5}",
+        "$description": "Use for error texts in dark mode"
+      }
+    },
+    "body": {
+      "placeholder": {
+        "$type": "color",
+        "$value": "{gray.5}"
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{gray.2}"
+      }
+    },
+    "link": {
+      "$type": "color",
+      "$value": "{blue.4}"
+    },
+    "default": {
+      "$type": "color",
+      "$value": "{dark.0}"
+    },
+    "dimmed": {
+      "$type": "color",
+      "$value": "{dark.3}",
+      "$description": "Use for secondary or less important text in dark mode"
+    },
+    "disabled": {
+      "default": {
+        "$type": "color",
+        "$value": "{dark.5}"
+      }
+    },
+    "info": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.4}"
+      }
+    },
+    "warning": {
+      "default": {
+        "$type": "color",
+        "$value": "{yellow.5}"
+      }
+    },
+    "success": {
+      "default": {
+        "$type": "color",
+        "$value": "{green.5}"
+      }
+    },
+    "heading": {
+      "default": {
+        "$type": "color",
+        "$value": "{neutral.white}"
+      }
+    },
+    "label": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.4}"
+      }
+    }
+  },
+  "background": {
+    "default": {
+      "$type": "color",
+      "$value": "{dark.6}",
+      "$description": "Use to set a default color for various elements in dark mode"
+    },
+    "default-hover": {
+      "$type": "color",
+      "$value": "{dark.5}",
+      "$description": "use for hover state for various elements in dark mode"
+    },
+    "body": {
+      "$type": "color",
+      "$value": "{dark.7}",
+      "$description": "Usually for your application background in dark mode"
+    },
+    "disabled": {
+      "default": {
+        "$type": "color",
+        "$value": "{dark.8}"
+      }
+    },
+    "transparent": {
+      "$type": "color",
+      "$value": "#ffffff00"
+    },
+    "primary": {
+      "filled": {
+        "$type": "color",
+        "$value": "{blue.5}"
+      },
+      "filled-hover": {
+        "$type": "color",
+        "$value": "{blue.6}"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "{primary.dark-15}"
+      },
+      "light-hover": {
+        "$type": "color",
+        "$value": "{primary.dark-20}"
+      }
+    },
+    "warning": {
+      "filled": {
+        "$type": "color",
+        "$value": "{yellow.6}"
+      },
+      "filled-hover": {
+        "$type": "color",
+        "$value": "{yellow.7}"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#fab00526"
+      },
+      "light-hover": {
+        "$type": "color",
+        "$value": "#fab00533"
+      }
+    },
+    "success": {
+      "filled": {
+        "$type": "color",
+        "$value": "{green.6}"
+      },
+      "filled-hover": {
+        "$type": "color",
+        "$value": "{green.7}"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#12b88626"
+      },
+      "light-hover": {
+        "$type": "color",
+        "$value": "#12b88633"
+      }
+    },
+    "gray": {
+      "light": {
+        "$type": "color",
+        "$value": "{dark.8}"
+      },
+      "filled": {
+        "$type": "color",
+        "$value": "{dark.4}"
+      },
+      "filled-hover": {
+        "$type": "color",
+        "$value": "{dark.3}"
+      },
+      "light-hover": {
+        "$type": "color",
+        "$value": "#86909633"
+      }
+    },
+    "error": {
+      "filled": {
+        "$type": "color",
+        "$value": "{red.6}"
+      },
+      "filled-hover": {
+        "$type": "color",
+        "$value": "{red.7}"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "{red.dark-15}"
+      },
+      "light-hover": {
+        "$type": "color",
+        "$value": "#fa525233"
+      }
+    },
+    "info": {
+      "filled": {
+        "$type": "color",
+        "$value": "{blue.5}"
+      },
+      "filled-hover": {
+        "$type": "color",
+        "$value": "{blue.6}"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#4c6ef526"
+      },
+      "light-hover": {
+        "$type": "color",
+        "$value": "#4c6ef533"
+      }
+    }
+  },
+  "border": {
+    "default": {
+      "$type": "color",
+      "$value": "{dark.4}"
+    },
+    "primary": {
+      "default": {
+        "$type": "color",
+        "$value": "{primary.4}"
+      }
+    },
+    "success": {
+      "default": {
+        "$type": "color",
+        "$value": "{green.5}"
+      }
+    },
+    "error": {
+      "default": {
+        "$type": "color",
+        "$value": "{red.5}"
+      }
+    },
+    "gray": {
+      "default": {
+        "$type": "color",
+        "$value": "{dark.3}"
+      }
+    },
+    "warning": {
+      "default": {
+        "$type": "color",
+        "$value": "{yellow.5}"
+      }
+    },
+    "info": {
+      "default": {
+        "$type": "color",
+        "$value": "{blue.4}"
+      }
+    },
+    "disabled": {
+      "default": {
+        "$type": "color",
+        "$value": "{dark.6}"
+      }
+    }
+  }
+}
