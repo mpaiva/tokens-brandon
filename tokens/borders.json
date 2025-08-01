@@ -2,23 +2,28 @@
   "width": {
     "none": {
       "$type": "dimension",
-      "$value": "0rem"
+      "$value": "0rem",
+      "$description": "No border - use to remove borders"
     },
     "hairline": {
       "$type": "dimension",
-      "$value": "0.063rem"
+      "$value": "0.063rem",
+      "$description": "Thinnest border - 1px, use for subtle dividers and outlines"
     },
     "thin": {
       "$type": "dimension",
-      "$value": "0.125rem"
+      "$value": "0.125rem",
+      "$description": "Thin border - 2px, standard for input fields and cards"
     },
     "medium": {
       "$type": "dimension",
-      "$value": "0.188rem"
+      "$value": "0.188rem",
+      "$description": "Medium border - 3px, use for emphasis and selected states"
     },
     "thick": {
       "$type": "dimension",
-      "$value": "0.25rem"
+      "$value": "0.25rem",
+      "$description": "Thick border - 4px, use for strong emphasis and brand elements"
     }
   }
 }

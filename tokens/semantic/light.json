@@ -2,7 +2,8 @@
   "text": {
     "title": {
       "$type": "color",
-      "$value": "{gray.9}"
+      "$value": "{gray.9}",
+      "$description": "Use for page titles and main headings"
     },
     "error": {
       "default": {
@@ -14,20 +15,24 @@
     "body": {
       "placeholder": {
         "$type": "color",
-        "$value": "{gray.5}"
+        "$value": "{gray.5}",
+        "$description": "Use for input placeholder text"
       },
       "default": {
         "$type": "color",
-        "$value": "{gray.7}"
+        "$value": "{gray.7}",
+        "$description": "Default body text color"
       }
     },
     "link": {
       "$type": "color",
-      "$value": "{blue.5}"
+      "$value": "{blue.5}",
+      "$description": "Use for hyperlinks and clickable text"
     },
     "default": {
       "$type": "color",
-      "$value": "{gray.9}"
+      "$value": "{gray.9}",
+      "$description": "Default text color for general use"
     },
     "dimmed": {
       "$type": "color",
@@ -37,37 +42,43 @@
     "disabled": {
       "default": {
         "$type": "color",
-        "$value": "{gray.5}"
+        "$value": "{gray.5}",
+        "$description": "Use for disabled state text"
       }
     },
     "info": {
       "default": {
         "$type": "color",
-        "$value": "{blue.5}"
+        "$value": "{blue.5}",
+        "$description": "Use for informational messages and alerts"
       }
     },
     "warning": {
       "default": {
         "$type": "color",
-        "$value": "{yellow.8}"
+        "$value": "{yellow.8}",
+        "$description": "Use for warning messages and alerts"
       }
     },
     "success": {
       "default": {
         "$type": "color",
-        "$value": "{green.8}"
+        "$value": "{green.8}",
+        "$description": "Use for success messages and confirmations"
       }
     },
     "heading": {
       "default": {
         "$type": "color",
-        "$value": "{gray.9}"
+        "$value": "{gray.9}",
+        "$description": "Use for section headings and subtitles"
       }
     },
     "label": {
       "default": {
         "$type": "color",
-        "$value": "{blue.5}"
+        "$value": "{blue.5}",
+        "$description": "Use for form labels and UI component labels"
       }
     }
   },
@@ -90,167 +101,201 @@
     "disabled": {
       "default": {
         "$type": "color",
-        "$value": "{gray.2}"
+        "$value": "{gray.2}",
+        "$description": "Use for disabled element backgrounds"
       }
     },
     "transparent": {
       "$type": "color",
-      "$value": "#ffffff00"
+      "$value": "#ffffff00",
+      "$description": "Fully transparent background"
     },
     "primary": {
       "filled": {
         "$type": "color",
-        "$value": "{blue.5}"
+        "$value": "{blue.5}",
+        "$description": "Primary button and action backgrounds"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{blue.7}"
+        "$value": "{blue.7}",
+        "$description": "Primary button hover state"
       },
       "light": {
         "$type": "color",
-        "$value": "{primary.light-10}"
+        "$value": "{primary.light-10}",
+        "$description": "Light primary background for subtle emphasis"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "{primary.light-12}"
+        "$value": "{primary.light-12}",
+        "$description": "Light primary background hover state"
       }
     },
     "warning": {
       "filled": {
         "$type": "color",
-        "$value": "{yellow.8}"
+        "$value": "{yellow.8}",
+        "$description": "Warning button and alert backgrounds"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{yellow.9}"
+        "$value": "{yellow.9}",
+        "$description": "Warning button hover state"
       },
       "light": {
         "$type": "color",
-        "$value": "#fab0051a"
+        "$value": "#fab0051a",
+        "$description": "Light warning background for alerts"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "#fab0051f"
+        "$value": "#fab0051f",
+        "$description": "Light warning background hover state"
       }
     },
     "success": {
       "filled": {
         "$type": "color",
-        "$value": "{green.8}"
+        "$value": "{green.8}",
+        "$description": "Success button and confirmation backgrounds"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{green.9}"
+        "$value": "{green.9}",
+        "$description": "Success button hover state"
       },
       "light": {
         "$type": "color",
-        "$value": "#12b8861a"
+        "$value": "#12b8861a",
+        "$description": "Light success background for positive feedback"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "#12b8861f"
+        "$value": "#12b8861f",
+        "$description": "Light success background hover state"
       }
     },
     "gray": {
       "light": {
         "$type": "color",
-        "$value": "{gray.0}"
+        "$value": "{gray.0}",
+        "$description": "Light gray background for neutral sections"
       },
       "filled": {
         "$type": "color",
-        "$value": "{gray.6}"
+        "$value": "{gray.6}",
+        "$description": "Gray button and neutral element backgrounds"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{gray.7}"
+        "$value": "{gray.7}",
+        "$description": "Gray button hover state"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "#868e961f"
+        "$value": "#868e961f",
+        "$description": "Light gray background hover state"
       }
     },
     "error": {
       "filled": {
         "$type": "color",
-        "$value": "{red.8}"
+        "$value": "{red.8}",
+        "$description": "Error button and critical action backgrounds"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{red.9}"
+        "$value": "{red.9}",
+        "$description": "Error button hover state"
       },
       "light": {
         "$type": "color",
-        "$value": "{red.light-12}"
+        "$value": "{red.light-12}",
+        "$description": "Light error background for error messages"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "#fa52521f"
+        "$value": "#fa52521f",
+        "$description": "Light error background hover state"
       }
     },
     "info": {
       "filled": {
         "$type": "color",
-        "$value": "{blue.5}"
+        "$value": "{blue.5}",
+        "$description": "Info button and informational element backgrounds"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{blue.6}"
+        "$value": "{blue.6}",
+        "$description": "Info button hover state"
       },
       "light": {
         "$type": "color",
-        "$value": "#4c6ef51a"
+        "$value": "#4c6ef51a",
+        "$description": "Light info background for informational content"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "#4c6ef51f"
+        "$value": "#4c6ef51f",
+        "$description": "Light info background hover state"
       }
     }
   },
   "border": {
     "default": {
       "$type": "color",
-      "$value": "{gray.3}"
+      "$value": "{gray.3}",
+      "$description": "Default border color for cards, inputs, and dividers"
     },
     "primary": {
       "default": {
         "$type": "color",
-        "$value": "{primary.5}"
+        "$value": "{primary.5}",
+        "$description": "Primary border for focused inputs and selected elements"
       }
     },
     "success": {
       "default": {
         "$type": "color",
-        "$value": "{green.6}"
+        "$value": "{green.6}",
+        "$description": "Success border for validated inputs and positive states"
       }
     },
     "error": {
       "default": {
         "$type": "color",
-        "$value": "{red.6}"
+        "$value": "{red.6}",
+        "$description": "Error border for invalid inputs and error states"
       }
     },
     "gray": {
       "default": {
         "$type": "color",
-        "$value": "{gray.6}"
+        "$value": "{gray.6}",
+        "$description": "Gray border for neutral emphasis and secondary elements"
       }
     },
     "warning": {
       "default": {
         "$type": "color",
-        "$value": "{yellow.6}"
+        "$value": "{yellow.6}",
+        "$description": "Warning border for caution states and alerts"
       }
     },
     "info": {
       "default": {
         "$type": "color",
-        "$value": "{blue.5}"
+        "$value": "{blue.5}",
+        "$description": "Info border for informational elements and tooltips"
       }
     },
     "disabled": {
       "default": {
         "$type": "color",
-        "$value": "{gray.2}"
+        "$value": "{gray.2}",
+        "$description": "Disabled border for inactive inputs and elements"
       }
     }
   }

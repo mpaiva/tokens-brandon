@@ -1,6 +1,7 @@
 {
   "xs": {
     "$type": "shadow",
+    "$description": "Extra small shadow - subtle elevation for hover states",
     "$value": [
       {
         "color": "#0000000d",
@@ -20,6 +21,7 @@
   },
   "sm": {
     "$type": "shadow",
+    "$description": "Small shadow - default for cards and raised elements",
     "$value": [
       {
         "color": "#0000000d",
@@ -39,6 +41,7 @@
   },
   "md": {
     "$type": "shadow",
+    "$description": "Medium shadow - use for dropdowns and floating elements",
     "$value": [
       {
         "color": "#0000000d",
@@ -58,6 +61,7 @@
   },
   "lg": {
     "$type": "shadow",
+    "$description": "Large shadow - use for modals and overlays",
     "$value": [
       {
         "color": "#0000000d",
@@ -77,6 +81,7 @@
   },
   "xl": {
     "$type": "shadow",
+    "$description": "Extra large shadow - use for high elevation elements",
     "$value": [
       {
         "color": "#0000000d",

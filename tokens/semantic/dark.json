@@ -2,7 +2,8 @@
   "text": {
     "title": {
       "$type": "color",
-      "$value": "{gray.0}"
+      "$value": "{gray.0}",
+      "$description": "Use for page titles and main headings in dark mode"
     },
     "error": {
       "default": {
@@ -14,20 +15,24 @@
     "body": {
       "placeholder": {
         "$type": "color",
-        "$value": "{gray.5}"
+        "$value": "{gray.5}",
+        "$description": "Use for input placeholder text in dark mode"
       },
       "default": {
         "$type": "color",
-        "$value": "{gray.2}"
+        "$value": "{gray.2}",
+        "$description": "Default body text color in dark mode"
       }
     },
     "link": {
       "$type": "color",
-      "$value": "{blue.4}"
+      "$value": "{blue.4}",
+      "$description": "Use for hyperlinks and clickable text in dark mode"
     },
     "default": {
       "$type": "color",
-      "$value": "{dark.0}"
+      "$value": "{dark.0}",
+      "$description": "Default text color for general use in dark mode"
     },
     "dimmed": {
       "$type": "color",
@@ -37,37 +42,43 @@
     "disabled": {
       "default": {
         "$type": "color",
-        "$value": "{dark.5}"
+        "$value": "{dark.5}",
+        "$description": "Use for disabled state text in dark mode"
       }
     },
     "info": {
       "default": {
         "$type": "color",
-        "$value": "{blue.4}"
+        "$value": "{blue.4}",
+        "$description": "Use for informational messages and alerts in dark mode"
       }
     },
     "warning": {
       "default": {
         "$type": "color",
-        "$value": "{yellow.5}"
+        "$value": "{yellow.5}",
+        "$description": "Use for warning messages and alerts in dark mode"
       }
     },
     "success": {
       "default": {
         "$type": "color",
-        "$value": "{green.5}"
+        "$value": "{green.5}",
+        "$description": "Use for success messages and confirmations in dark mode"
       }
     },
     "heading": {
       "default": {
         "$type": "color",
-        "$value": "{neutral.white}"
+        "$value": "{neutral.white}",
+        "$description": "Use for section headings and subtitles in dark mode"
       }
     },
     "label": {
       "default": {
         "$type": "color",
-        "$value": "{blue.4}"
+        "$value": "{blue.4}",
+        "$description": "Use for form labels and UI component labels in dark mode"
       }
     }
   },
@@ -90,167 +101,201 @@
     "disabled": {
       "default": {
         "$type": "color",
-        "$value": "{dark.8}"
+        "$value": "{dark.8}",
+        "$description": "Use for disabled element backgrounds in dark mode"
       }
     },
     "transparent": {
       "$type": "color",
-      "$value": "#ffffff00"
+      "$value": "#ffffff00",
+      "$description": "Fully transparent background"
     },
     "primary": {
       "filled": {
         "$type": "color",
-        "$value": "{blue.5}"
+        "$value": "{blue.5}",
+        "$description": "Primary button and action backgrounds in dark mode"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{blue.6}"
+        "$value": "{blue.6}",
+        "$description": "Primary button hover state in dark mode"
       },
       "light": {
         "$type": "color",
-        "$value": "{primary.dark-15}"
+        "$value": "{primary.dark-15}",
+        "$description": "Light primary background for subtle emphasis in dark mode"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "{primary.dark-20}"
+        "$value": "{primary.dark-20}",
+        "$description": "Light primary background hover state in dark mode"
       }
     },
     "warning": {
       "filled": {
         "$type": "color",
-        "$value": "{yellow.6}"
+        "$value": "{yellow.6}",
+        "$description": "Warning button and alert backgrounds in dark mode"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{yellow.7}"
+        "$value": "{yellow.7}",
+        "$description": "Warning button hover state in dark mode"
       },
       "light": {
         "$type": "color",
-        "$value": "#fab00526"
+        "$value": "#fab00526",
+        "$description": "Light warning background for alerts in dark mode"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "#fab00533"
+        "$value": "#fab00533",
+        "$description": "Light warning background hover state in dark mode"
       }
     },
     "success": {
       "filled": {
         "$type": "color",
-        "$value": "{green.6}"
+        "$value": "{green.6}",
+        "$description": "Success button and confirmation backgrounds in dark mode"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{green.7}"
+        "$value": "{green.7}",
+        "$description": "Success button hover state in dark mode"
       },
       "light": {
         "$type": "color",
-        "$value": "#12b88626"
+        "$value": "#12b88626",
+        "$description": "Light success background for positive feedback in dark mode"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "#12b88633"
+        "$value": "#12b88633",
+        "$description": "Light success background hover state in dark mode"
       }
     },
     "gray": {
       "light": {
         "$type": "color",
-        "$value": "{dark.8}"
+        "$value": "{dark.8}",
+        "$description": "Light gray background for neutral sections in dark mode"
       },
       "filled": {
         "$type": "color",
-        "$value": "{dark.4}"
+        "$value": "{dark.4}",
+        "$description": "Gray button and neutral element backgrounds in dark mode"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{dark.3}"
+        "$value": "{dark.3}",
+        "$description": "Gray button hover state in dark mode"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "#86909633"
+        "$value": "#86909633",
+        "$description": "Light gray background hover state in dark mode"
       }
     },
     "error": {
       "filled": {
         "$type": "color",
-        "$value": "{red.6}"
+        "$value": "{red.6}",
+        "$description": "Error button and critical action backgrounds in dark mode"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{red.7}"
+        "$value": "{red.7}",
+        "$description": "Error button hover state in dark mode"
       },
       "light": {
         "$type": "color",
-        "$value": "{red.dark-15}"
+        "$value": "{red.dark-15}",
+        "$description": "Light error background for error messages in dark mode"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "#fa525233"
+        "$value": "#fa525233",
+        "$description": "Light error background hover state in dark mode"
       }
     },
     "info": {
       "filled": {
         "$type": "color",
-        "$value": "{blue.5}"
+        "$value": "{blue.5}",
+        "$description": "Info button and informational element backgrounds in dark mode"
       },
       "filled-hover": {
         "$type": "color",
-        "$value": "{blue.6}"
+        "$value": "{blue.6}",
+        "$description": "Info button hover state in dark mode"
       },
       "light": {
         "$type": "color",
-        "$value": "#4c6ef526"
+        "$value": "#4c6ef526",
+        "$description": "Light info background for informational content in dark mode"
       },
       "light-hover": {
         "$type": "color",
-        "$value": "#4c6ef533"
+        "$value": "#4c6ef533",
+        "$description": "Light info background hover state in dark mode"
       }
     }
   },
   "border": {
     "default": {
       "$type": "color",
-      "$value": "{dark.4}"
+      "$value": "{dark.4}",
+      "$description": "Default border color for cards, inputs, and dividers in dark mode"
     },
     "primary": {
       "default": {
         "$type": "color",
-        "$value": "{primary.4}"
+        "$value": "{primary.4}",
+        "$description": "Primary border for focused inputs and selected elements in dark mode"
       }
     },
     "success": {
       "default": {
         "$type": "color",
-        "$value": "{green.5}"
+        "$value": "{green.5}",
+        "$description": "Success border for validated inputs and positive states in dark mode"
       }
     },
     "error": {
       "default": {
         "$type": "color",
-        "$value": "{red.5}"
+        "$value": "{red.5}",
+        "$description": "Error border for invalid inputs and error states in dark mode"
       }
     },
     "gray": {
       "default": {
         "$type": "color",
-        "$value": "{dark.3}"
+        "$value": "{dark.3}",
+        "$description": "Gray border for neutral emphasis and secondary elements in dark mode"
       }
     },
     "warning": {
       "default": {
         "$type": "color",
-        "$value": "{yellow.5}"
+        "$value": "{yellow.5}",
+        "$description": "Warning border for caution states and alerts in dark mode"
       }
     },
     "info": {
       "default": {
         "$type": "color",
-        "$value": "{blue.4}"
+        "$value": "{blue.4}",
+        "$description": "Info border for informational elements and tooltips in dark mode"
       }
     },
     "disabled": {
       "default": {
         "$type": "color",
-        "$value": "{dark.6}"
+        "$value": "{dark.6}",
+        "$description": "Disabled border for inactive inputs and elements in dark mode"
       }
     }
   }

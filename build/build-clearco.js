@@ -14,21 +14,37 @@ function resolveTokenValue(value, tokens, visited = new Set()) {
   }
 
   visited.add(reference);
-  const parts = reference.split('.');
-  let current = tokens;
+  
+  // Try to resolve the reference with different possible paths
+  const possiblePaths = [
+    reference, // Try as-is first
+    `mantine.colors.${reference}`, // Try mantine colors
+    `primitives.colors.${reference}`, // Try primitives colors
+    `colors.${reference}`, // Try colors directly
+    `semantic.${reference}`, // Try semantic tokens
+    `mantine.${reference}`, // Try mantine root
+    `primitives.${reference}` // Try primitives root
+  ];
 
-  for (const part of parts) {
-    if (!current || typeof current !== 'object') {
-      console.warn(`Unable to resolve reference: ${reference}`);
-      return value;
+  for (const path of possiblePaths) {
+    const parts = path.split('.');
+    let current = tokens;
+    let found = true;
+
+    for (const part of parts) {
+      if (!current || typeof current !== 'object' || !current.hasOwnProperty(part)) {
+        found = false;
+        break;
+      }
+      current = current[part];
     }
-    current = current[part];
+
+    if (found && current && current.$value !== undefined) {
+      return resolveTokenValue(current.$value, tokens, visited);
+    }
   }
 
-  if (current && current.$value !== undefined) {
-    return resolveTokenValue(current.$value, tokens, visited);
-  }
-
+  console.warn(`Unable to resolve reference: ${reference}`);
   return value;
 }
 
@@ -40,7 +56,8 @@ const tokenFiles = {
   },
   semantic: {
     light: JSON.parse(fs.readFileSync('./tokens/semantic/light.json', 'utf8')),
-    dark: JSON.parse(fs.readFileSync('./tokens/semantic/dark.json', 'utf8'))
+    dark: JSON.parse(fs.readFileSync('./tokens/semantic/dark.json', 'utf8')),
+    colors: JSON.parse(fs.readFileSync('./tokens/semantic/colors.json', 'utf8'))
   },
   typography: JSON.parse(fs.readFileSync('./tokens/typography.json', 'utf8')),
   borders: JSON.parse(fs.readFileSync('./tokens/borders.json', 'utf8')),
@@ -239,7 +256,9 @@ const allTokens = {
   colors: tokenFiles.primitives.colors,
   typography: tokenFiles.typography,
   borders: tokenFiles.borders,
-  padding: tokenFiles.padding
+  padding: tokenFiles.padding,
+  // Add semantic colors at root level for easier resolution
+  ...tokenFiles.semantic.colors
 };
 
 // Extract tokens for each theme

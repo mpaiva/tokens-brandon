@@ -1,34 +1,42 @@
 {
   "none": {
     "$type": "dimension",
-    "$value": "0rem"
+    "$value": "0rem",
+    "$description": "No border radius - sharp corners"
   },
   "xs": {
     "$type": "dimension",
-    "$value": "{radius.xs}"
+    "$value": "{radius.xs}",
+    "$description": "Extra small radius - 2px, subtle rounding"
   },
   "sm": {
     "$type": "dimension",
-    "$value": "{radius.sm}"
+    "$value": "{radius.sm}",
+    "$description": "Small radius - 4px, standard for buttons and inputs"
   },
   "md": {
     "$type": "dimension",
-    "$value": "{radius.md}"
+    "$value": "{radius.md}",
+    "$description": "Medium radius - 8px, use for cards and containers"
   },
   "lg": {
     "$type": "dimension",
-    "$value": "{radius.lg}"
+    "$value": "{radius.lg}",
+    "$description": "Large radius - 16px, use for modals and large cards"
   },
   "xl": {
     "$type": "dimension",
-    "$value": "{radius.xl}"
+    "$value": "{radius.xl}",
+    "$description": "Extra large radius - 32px, use for feature boxes"
   },
   "xxl": {
     "$type": "dimension",
-    "$value": "2.5rem"
+    "$value": "2.5rem",
+    "$description": "Extra extra large radius - 40px, use for hero elements"
   },
   "default": {
     "$type": "dimension",
-    "$value": "{radius.default}"
+    "$value": "{radius.default}",
+    "$description": "Default border radius - typically small (4px)"
   }
 }

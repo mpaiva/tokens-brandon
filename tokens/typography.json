@@ -2,33 +2,40 @@
   "fontFamilies": {
     "heading": {
       "$type": "fontFamily",
-      "$value": "Atkinson Hyperlegible Next"
+      "$value": "Atkinson Hyperlegible Next",
+      "$description": "Font family for headings and titles - optimized for readability"
     },
     "body": {
       "$type": "fontFamily",
-      "$value": "Public Sans"
+      "$value": "Public Sans",
+      "$description": "Primary font family for body text and general UI content"
     },
     "label": {
       "$type": "fontFamily",
-      "$value": "Public Sans"
+      "$value": "Public Sans",
+      "$description": "Font family for form labels and UI component labels"
     },
     "monospace": {
       "$type": "fontFamily",
-      "$value": "Atkinson Hyperlegible Mono"
+      "$value": "Atkinson Hyperlegible Mono",
+      "$description": "Monospaced font for code snippets and technical content"
     }
   },
   "fontWeights": {
     "regular": {
       "$type": "fontWeight",
-      "$value": "400"
+      "$value": "400",
+      "$description": "Default font weight for body text"
     },
     "medium": {
       "$type": "fontWeight",
-      "$value": "500"
+      "$value": "500",
+      "$description": "Medium font weight for emphasis and UI elements"
     },
     "bold": {
       "$type": "fontWeight",
-      "$value": "700"
+      "$value": "700",
+      "$description": "Bold font weight for headings and strong emphasis"
     }
   },
   "lineHeights": {
